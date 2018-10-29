@@ -452,6 +452,8 @@ public class BluetoothLeService extends Service {
                     }
                     connect(mBluetoothDeviceAddress);
                     count++;
+                    Log.i(TAG, "run: " + count);
+                    Log.d(TAG, "run: " + count);
                     if (count >= 5) { //连续重连五次还没连接上则重新进行扫描周围设备
                         count = 0;
                         scanLeDevice(true);
@@ -459,8 +461,6 @@ public class BluetoothLeService extends Service {
                     } else {
                         mHandler.postDelayed(this, RECONNECT_TIME_INTERVAL);
                     }
-                    Log.i(TAG, "run: " + count);
-                    Log.d(TAG, "run: " + count);
                 }
             };
             mHandler.post(runnable);
