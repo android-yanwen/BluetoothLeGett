@@ -39,29 +39,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DeviceControlActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeviceControlActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="220" column="50" selection-start-line="220" selection-start-column="50" selection-end-line="220" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.6625442">
+              <caret line="227" column="58" selection-start-line="227" selection-start-column="58" selection-end-line="227" selection-end-column="58" />
               <folding>
-                <element signature="e#0#37227#0" expanded="true" />
+                <element signature="e#0#37228#0" expanded="true" />
                 <element signature="e#10060#10078#0" expanded="true" />
-                <element signature="e#10912#15954#0" expanded="true" />
-                <element signature="e#11261#11279#0" expanded="true" />
-                <element signature="e#11627#11648#0" expanded="true" />
-                <element signature="e#15953#15954#0" expanded="true" />
-                <element signature="e#26168#26316#0" expanded="true" />
-                <element signature="e#26315#26316#0" expanded="true" />
+                <element signature="e#10913#15955#0" expanded="true" />
+                <element signature="e#11262#11280#0" expanded="true" />
+                <element signature="e#11628#11649#0" expanded="true" />
+                <element signature="e#15954#15955#0" expanded="true" />
+                <element signature="e#26169#26317#0" expanded="true" />
+                <element signature="e#26316#26317#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51754385">
+            <state vertical-scroll-proportion="0.0">
               <caret line="455" column="48" selection-start-line="455" selection-start-column="48" selection-end-line="455" selection-end-column="48" />
               <folding />
             </state>
@@ -1922,8 +1922,8 @@
         <option value="$PROJECT_DIR$/BluetoothLeGattSample/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/BluetoothLeGattSample/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java" />
-        <option value="$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" />
         <option value="$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java" />
+        <option value="$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" />
       </list>
     </option>
   </component>
@@ -2522,7 +2522,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37710437" sideWeight="0.5129241" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37710437" sideWeight="0.48546043" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37710437" sideWeight="0.48546043" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2531,7 +2531,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2568,19 +2568,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java</url>
-          <line>414</line>
+          <line>415</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java</url>
-          <line>421</line>
+          <line>422</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java</url>
-          <line>327</line>
+          <line>328</line>
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
@@ -2604,7 +2604,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java</url>
-          <line>564</line>
+          <line>565</line>
           <properties />
           <option name="timeStamp" value="159" />
         </line-breakpoint>
@@ -2628,7 +2628,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java</url>
-          <line>336</line>
+          <line>337</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
@@ -3032,28 +3032,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
+    <entry file="file://$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="220" column="50" selection-start-line="220" selection-start-column="50" selection-end-line="220" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#37227#0" expanded="true" />
-            <element signature="e#10060#10078#0" expanded="true" />
-            <element signature="e#10912#15954#0" expanded="true" />
-            <element signature="e#11261#11279#0" expanded="true" />
-            <element signature="e#11627#11648#0" expanded="true" />
-            <element signature="e#15953#15954#0" expanded="true" />
-            <element signature="e#26168#26316#0" expanded="true" />
-            <element signature="e#26315#26316#0" expanded="true" />
-          </folding>
+          <caret line="455" column="48" selection-start-line="455" selection-start-column="48" selection-end-line="455" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java">
+    <entry file="file://$PROJECT_DIR$/BluetoothLeGattSample/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51754385">
-          <caret line="455" column="48" selection-start-line="455" selection-start-column="48" selection-end-line="455" selection-end-column="48" />
-          <folding />
+        <state vertical-scroll-proportion="0.6625442">
+          <caret line="227" column="58" selection-start-line="227" selection-start-column="58" selection-end-line="227" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#37228#0" expanded="true" />
+            <element signature="e#10060#10078#0" expanded="true" />
+            <element signature="e#10913#15955#0" expanded="true" />
+            <element signature="e#11262#11280#0" expanded="true" />
+            <element signature="e#11628#11649#0" expanded="true" />
+            <element signature="e#15954#15955#0" expanded="true" />
+            <element signature="e#26169#26317#0" expanded="true" />
+            <element signature="e#26316#26317#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

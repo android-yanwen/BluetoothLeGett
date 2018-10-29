@@ -226,6 +226,7 @@ public class DeviceControlActivity extends Activity {
             } else {
                 mConnected = true;
                 updateConnectionState(R.string.connected);
+
             }
             /***绑定服务成功后同步数据库数据****/
             sysnchronousData();
