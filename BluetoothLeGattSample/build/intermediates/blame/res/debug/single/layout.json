@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/merged/debug/layout/actionbar_indeterminate_progress.xml",
+        "source": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/src/main/res/layout/actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/merged/debug/layout/listitem_device.xml",
+        "source": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/src/main/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/merged/debug/layout/gatt_services_characteristics.xml",
+        "source": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/src/main/res/layout/gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/merged/debug/layout/dialog.xml",
+        "source": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/src/main/res/layout/dialog.xml"
+    }
+]

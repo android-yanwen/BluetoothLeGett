@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/merged/debug/menu/gatt_services.xml",
+        "source": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/src/main/res/menu/gatt_services.xml"
+    },
+    {
+        "merged": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/src/main/res/menu/main.xml"
+    }
+]
