@@ -280,33 +280,39 @@ public class DeviceControlActivity extends Activity {
 
                 //获得手表的服务UUID
                 bluetoothGattService = mBluetoothLeService.getSupportedGattService(UUID.fromString(SampleGattAttributes.SERVICE_UUID));
-                //设置读取消息的通知
-                characteristicRead = bluetoothGattService.getCharacteristic(UUID.fromString(SampleGattAttributes.CHARACTER_READ_UUID));
+                if (bluetoothGattService != null) {
+                    //设置读取消息的通知
+                    characteristicRead = bluetoothGattService.getCharacteristic(UUID.fromString(SampleGattAttributes.CHARACTER_READ_UUID));
 //                Log.d("tag", characteristicRead.getUuid().toString());
 //                if (mBluetoothLeService.enableNatification(characteristicRead, true)) {
 //                    Log.d("tag", "enabled!!!");
 //                } else {
 //                    Log.d("tag", "disabled!!!");
 //                }
-                Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        Calendar cal = Calendar.getInstance();
-                        int i_year = cal.get(Calendar.YEAR);
-                        int i_month = cal.get(Calendar.MONTH) + 1;
-                        int i_day = cal.get(Calendar.DATE);
-                        int i_week = cal.get(Calendar.DAY_OF_WEEK) - 1;
-                        int i_hour = cal.get(Calendar.HOUR_OF_DAY);
-                        int i_minute = cal.get(Calendar.MINUTE);
-                        int i_second = cal.get(Calendar.SECOND);
-                        BLEProtocol.setBLETimePro(i_year, i_month, i_day, i_hour, i_minute, i_second, i_week);//往协议中插入系统时间
-                        //获得BLE发送的 characterictic
-                        characteristicWrite = bluetoothGattService.getCharacteristic(UUID.fromString(SampleGattAttributes.CHARACTER_WRITE_UUID));
-                        characteristicWrite.setValue(BLEProtocol.getBLEGetTimePro());  //按照协议发送时间
-                        mBluetoothLeService.writeCharacteristic(characteristicWrite);
-                    }
-                }, 300);
+                    Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            Calendar cal = Calendar.getInstance();
+                            int i_year = cal.get(Calendar.YEAR);
+                            int i_month = cal.get(Calendar.MONTH) + 1;
+                            int i_day = cal.get(Calendar.DATE);
+                            int i_week = cal.get(Calendar.DAY_OF_WEEK) - 1;
+                            int i_hour = cal.get(Calendar.HOUR_OF_DAY);
+                            int i_minute = cal.get(Calendar.MINUTE);
+                            int i_second = cal.get(Calendar.SECOND);
+                            BLEProtocol.setBLETimePro(i_year, i_month, i_day, i_hour, i_minute, i_second, i_week);//往协议中插入系统时间
+                            //获得BLE发送的 characterictic
+                            if (bluetoothGattService != null) {
+                                characteristicWrite = bluetoothGattService.getCharacteristic(UUID.fromString(SampleGattAttributes.CHARACTER_WRITE_UUID));
+                                characteristicWrite.setValue(BLEProtocol.getBLEGetTimePro());  //按照协议发送时间
+                                mBluetoothLeService.writeCharacteristic(characteristicWrite);
+                            }
+                        }
+                    }, 300);
+                } else {
+                    Log.d(TAG, "获取到 bluetoothGattService 为空");
+                }
 
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
                 String s_recvPro = intent.getStringExtra(BluetoothLeService.EXTRA_DATA);

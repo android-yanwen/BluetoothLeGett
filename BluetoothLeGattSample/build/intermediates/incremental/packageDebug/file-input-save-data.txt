@@ -1,0 +1,36 @@
+#Internal package file, do not edit.
+#Wed Mar 27 11:25:51 CST 2019
+2.base=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+5.file=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_/res/layout/actionbar_indeterminate_progress.xml
+5.set=ANDROID_RESOURCE
+3.base=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_
+6.file=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_/res/menu/main.xml
+2.set=DEX
+10.set=ANDROID_RESOURCE
+10.file=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_/res/layout/listitem_device.xml
+4.base=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_
+7.file=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_/res/layout/dialog.xml
+7.set=ANDROID_RESOURCE
+count=11
+0.file=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_/resources.arsc
+5.base=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_
+8.file=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+4.set=ANDROID_RESOURCE
+6.base=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_
+1.file=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_/res/layout/gatt_services_characteristics.xml
+9.set=ANDROID_RESOURCE
+9.file=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_/res/menu/gatt_services.xml
+10.base=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_
+1.set=ANDROID_RESOURCE
+7.base=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_
+2.file=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+6.set=ANDROID_RESOURCE
+0.base=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_
+8.base=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_
+3.file=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
+3.set=ANDROID_RESOURCE
+1.base=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_
+9.base=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_
+4.file=/Users/yanwen/Downloads/BluetoothLeGatt_2_writestringhex_ok/BluetoothLeGatt/BluetoothLeGattSample/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi/ic_launcher.png
+8.set=ANDROID_RESOURCE
+0.set=ANDROID_RESOURCE

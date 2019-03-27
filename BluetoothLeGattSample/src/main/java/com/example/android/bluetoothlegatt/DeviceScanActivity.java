@@ -168,9 +168,11 @@ public class DeviceScanActivity extends ListActivity {
 //            return;
 //        }
         super.onActivityResult(requestCode, resultCode, data);
-        boolean isBind = data.getBooleanExtra("IsBind", false);
-        if (isBind) {
-            finish();
+        if (data != null) {
+            boolean isBind = data.getBooleanExtra("IsBind", false);
+            if (isBind) {
+                finish();
+            }
         }
 
     }
