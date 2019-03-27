@@ -305,8 +305,10 @@ public class DeviceControlActivity extends Activity {
                             //获得BLE发送的 characterictic
                             if (bluetoothGattService != null) {
                                 characteristicWrite = bluetoothGattService.getCharacteristic(UUID.fromString(SampleGattAttributes.CHARACTER_WRITE_UUID));
-                                characteristicWrite.setValue(BLEProtocol.getBLEGetTimePro());  //按照协议发送时间
-                                mBluetoothLeService.writeCharacteristic(characteristicWrite);
+                                if (characteristicWrite != null) {
+                                    characteristicWrite.setValue(BLEProtocol.getBLEGetTimePro());  //按照协议发送时间
+                                    mBluetoothLeService.writeCharacteristic(characteristicWrite);
+                                }
                             }
                         }
                     }, 300);
